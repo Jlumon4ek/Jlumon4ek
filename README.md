@@ -1,10 +1,22 @@
-## 💻 Обо мне
+<div align="center">
+  
+# 👋 Привет! Я Нурым Жансерик
 
-Backend-разработчик с **3+ годами** коммерческого опыта в проектировании **высоконагруженных систем** для финтеха, государственных структур и AI-платформ. Специализируюсь на **микросервисной архитектуре**, интеграции **LLM/ML-моделей**, асинхронной обработке задач и платёжных системах.
+### 🚀 Backend Developer 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zhanserik-nurym)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jlumon4ek)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nurymzhanserik@gmail.com)
+
+</div>
 
 ---
 
-## 🛠️ Технологический Стек
+## 👨‍💻 Обо мне
+
+Backend-разработчик с **~3+ годами** коммерческого опыта в проектировании высоконагруженных систем для **финтеха**, **государственных структур** и **AI-платформ**.
+
+## 🛠️ Технический стек
 
 ### Backend Frameworks & Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -39,6 +51,8 @@ Backend-разработчик с **3+ годами** коммерческого
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+
 
 ### AI & Third-party Integrations
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -52,49 +66,89 @@ Backend-разработчик с **3+ годами** коммерческого
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
+--- 
+
+## 💼 Коммерческий опыт
+
+### 🏢 АО «Транстелеком» | Middle Python Developer
+**Январь 2025 – Июнь 2025** | Астана, Казахстан
+
+**Проект:** [Aspan Pro](https://aspandigital.kz) — B2B-платформа для создания AI-ассистентов
+
+🔹 Разработал backend для создания ИИ-ассистентов на базе **OpenAI Assistant API** с RAG-архитектурой  
+🔹 Мигрировал на **open-source LLM** (Falcon 3B/10B) с использованием **vLLM на GPU A6000**, сократив расходы на **40%**  
+🔹 Интегрировал **WhatsApp, Instagram, Telegram** + CRM-системы (Wazzup, AmoCRM, Bitrix24)  
+🔹 Реализовал RAG-систему с **Qdrant + OpenAI embeddings** и интеграцией Google Docs/Sheets  
+
+**Стек:** `FastAPI` `SQLAlchemy` `Kafka` `Qdrant` `PostgreSQL` `vLLM` `Keycloak` `Docker`
+
 ---
 
-## 🏆 Опыт Работы
+### 🏢 Cleverest Technologies | Python Backend Developer
+**Декабрь 2022 – Декабрь 2024** | Астана, Казахстан
 
-### 🏢 АО «Транстелеком» — Middle Python Developer
-**Январь 2025 – Июнь 2025**
-- Разработал AI-платформу **Aspan Pro** (OpenAI API + RAG) с **50+ B2B-клиентами**
-- Мигрировал на open-source LLM (Falcon, vLLM), сократив расходы на **40%**
-- Интегрировал WhatsApp/Instagram/Telegram и CRM (Wazzup, AmoCRM)
-- Внедрил CI/CD, сократив время релиза до **15 минут**
-- **Стек:** FastAPI, SQLAlchemy, Kafka, Qdrant, PostgreSQL, Docker
+**Проект:** UmAI Army Safety — система видеомониторинга для Минобороны РК
 
-### 💻 Cleverest Technologies — Middle Python Developer
-**Июль 2024 – Декабрь 2024**
-- Ведущий разработчик **Umai Army Safety** для Минобороны РК
-- Интегрировал **70+ воинских частей** с многоуровневой авторизацией
-- Построил платформу видеоаналитики (**200+ IP-камер**, YOLO ML)
-- Продукт представлен с участием Замминистра
-- **Стек:** FastAPI, Celery, Oracle, MongoDB, Docker, Nginx
+🔹 Разработал backend с **80+ REST API endpoints**, обрабатывающий **400+ RTSP-потоков** и сотни WebSocket-подключений  
+🔹 Интегрировал **ML-модели YOLO** для real-time детекции инцидентов, сократив время реакции с **15-20 минут до 30 секунд**  
+🔹 Реализовал систему фоновой обработки **Celery + Kafka** с 10+ асинхронными задачами  
+🔹 Разработал модуль учета посещаемости с **face recognition** и систему управления транспортом с **OCR-распознаванием**  
+🔹 Внедрил многоуровневую авторизацию для **70+ военных объектов** с JWT и RBAC  
 
-### 🎨 Freelance Backend Developer
-**Август 2022 – по настоящее время**
-- **5+ финтех-проектов** с Robokassa, AirbaPay, SumSub KYC
-- Микросервисная архитектура на Docker Swarm (uptime 99.9%)
-- Backend для государственных платформ (Европротокол, ACIPE)
-- **Стек:** Python, NestJS, Golang, FastAPI, Django, PostgreSQL, MongoDB
+**Стек:** `FastAPI` `MongoDB` `Celery` `Redis` `WebSocket` `Docker` `MinIO` `OpenCV` `YOLO`
+
+---
+
+## 🚀 Избранные проекты
+
+### 🚚 [MoveShare](https://github.com/yourusername/moveshare) 
+**B2B/B2C платформа для логистики и перевозок**
+
+Маркетплейс для грузоперевозок, соединяющий компании с незаполненным транспортом и заказчиков.
+
+- 📦 Система бронирования грузового пространства
+- 🏢 CRM-панель для транспортных компаний
+- 👨‍💼 Админ-панель для управления платформой
+- 🔐 JWT-аутентификация + role-based access
+
+**Стек:** `Golang` `Gin` `React` `PostgreSQL` `Redis` `TypeScript` `Vite` `Docker`
+
+---
+
+### ✈️ [JetJoin](https://github.com/yourusername/jetjoin)
+**P2P платформа доставки посылок через курьеров-путешественников**
+
+Маркетплейс, соединяющий отправителей с путешественниками, летящими по нужным маршрутам.
+
+- 💬 Real-time чаты через **Django Channels** (WebSocket)
+- 🔐 4-значный код подтверждения доставки
+- ⭐ Рейтинги и отзывы для курьеров
+- 🌍 Автоматический перевод сообщений через **DeepL API**
+- 💳 Интеграция платежной системы
+- 📦 Хранение медиа в **MinIO**
+
+**Стек:** `Python 3.13` `Django` `DRF` `Django Channels` `PostgreSQL` `Redis` `MinIO` `Docker`
+
+---
+
+### 🎵 [Doritos Music Bot](https://github.com/yourusername/doritos-bot)
+**Telegram-бот для генерации музыки с AI**
+
+Бот для маркетинговой кампании Doritos Belarus с админ-панелью для статистики.
+
+- 🎼 AI-генерация музыки по текстовым промптам
+- 📊 Админ-панель с аналитикой использования
+- ⚡ Фоновая обработка через **Taskiq**
+- 🤖 Интеграция с Telegram Bot API
+
+**Стек:** `Python` `Taskiq` `Telegram Bot API` `Aiogram` `PostgreSQL`
 
 ---
 
 ## 🎓 Образование
-**Samsung Innovation Campus** — Java Android Development, Python
-**Astana IT University** — Cybersecurity (2022-2025)  
-**Alem School** — Golang Development (аналог School 21)  
 
----
-
-## 🌟 Ключевые компетенции
-
-- ⚡ **Асинхронное программирование**: Taskiq, asyncio, RabbitMQ, Kafka
-- 💳 **Платёжные интеграции**: Robokassa, AirbaPay, webhook-обработка
-- 🤖 **AI/ML**: OpenAI API, RAG-архитектура, векторные БД (Qdrant)
-- 🏗️ **Микросервисы**: Docker Swarm, message brokers, event-driven architecture
-- 📧 **Third-party API**: SumSub (KYC), Resend (email), smsc.kz (SMS)
-- ☁️ **Storage**: MinIO (S3-compatible), PostgreSQL, MongoDB, Redis
+🎓 **Astana IT University** — Бакалавр, Cybersecurity (2022-2025)  
+💻 **Alem School** — Golang Development (аналог School 21)  
+📱 **Samsung Innovation Campus** — Java Android Development, Python
 
 
